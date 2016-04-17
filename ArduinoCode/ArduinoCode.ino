@@ -9,7 +9,7 @@ String entoli;    //δήλωση μεταβλητής τύπου string για �
 void setup() 
 {
   Serial.begin(9600);   //εναρξη σύνδεσης με την συριακή θύρα
-  pinMode(13, OUTPUT);  //καθορισμός του pin 13 για έξοδο
+  pinMode(2, OUTPUT);  //καθορισμός του pin 13 για έξοδο
 }
 // επαναληπτική μέθοδος 
 void loop()     
